@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import tweepy
 
-CONSUMER_KEY = 'Z1r4Yw95FWE1XYax8yRFzQ'
-CONSUMER_SECRET = 'jWC5YGfeUZkhjUEN65ZgDQBnWeewJ4niewfpQOekQQ'
+CONSUMER_KEY = 'Account Consumer Key'
+CONSUMER_SECRET = 'Account Consumer Secret'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth_url = auth.get_authorization_url()
