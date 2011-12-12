@@ -15,10 +15,10 @@ class StartQt4(QtGui.QMainWindow):
     QtCore.QObject.connect(self.ui.pushButton, QtCore.SIGNAL("clicked()"), self.tweet_write)
    
   def tweet_write(self):
-    CONSUMER_KEY = 'Z1r4Yw95FWE1XYax8yRFzQ'
-    CONSUMER_SECRET = 'jWC5YGfeUZkhjUEN65ZgDQBnWeewJ4niewfpQOekQQ'
-    ACCESS_KEY = '46625058-fFRcZKQNgF0cVG28yXopfh61XsyBJnfUluAVvksdY'
-    ACCESS_SECRET = 'kufK5TAN7gfjDJpIiSjP3itJR3mNbB3BILFhdQrxM'
+    CONSUMER_KEY = 'Account Consumer Key'
+    CONSUMER_SECRET = 'Account Consumer Secret'
+    ACCESS_KEY = 'Account Access Key'
+    ACCESS_SECRET = 'Account Access Secret'
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
